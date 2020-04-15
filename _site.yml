@@ -9,6 +9,6 @@ navbar:
    href: site.html
 output:
   html_document:
- theme: cosmo
+ theme: minimal
 
 
