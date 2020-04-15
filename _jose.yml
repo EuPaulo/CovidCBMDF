@@ -1,0 +1,14 @@
+name: "covid"
+output_dir: "docs"
+navbar:
+  title: "COVID-19 CBMDF"
+  left:
+  - text: "Home"
+   href: site.html
+  - text: "Speed and Distance"
+   href: site.html
+output:
+  html_document:
+ theme: cosmo
+
+

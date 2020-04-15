@@ -1,6 +1,5 @@
 ---
 title: "COVID-19 CBMDF"
-output: html_document
 ---
 
 ```{r setup, include=FALSE}
