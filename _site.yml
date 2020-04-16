@@ -1,14 +1,21 @@
 name: "covid"
 output_dir: "docs"
 navbar:
-  title: "COVID-19 CBMDF"
+  title: "COVID-19 | CBMDF"
   left:
-  - text: "Home"
-   href: index.html
-  - text: "Speed and Distance"
-   href: site.html
+      - text: "Home"
+        href: index.html
+      - text: "Análise comparativa"
+        href: analise_comparativa.html
+      - text: "Modelos Preditivos"
+        menu:
+          - text: "teste"
+            href: modelos.html
+            
+      - text: "Mobilidade"
+        href: mobilidade.html
 output:
   html_document:
- theme: minima
+    theme: cosmo
 
 

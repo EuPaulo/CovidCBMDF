@@ -1,0 +1,31 @@
+---
+title: "COVID-19 CBMDF"
+---
+
+## Análise comparativa entre o crescimento da epidemia no Brasil, Distrito Federal e outros países
+
+Nessa análise, o crescimento entre as localidades foi comparado para que se tenha uma noção das tendências de crescimento da doença.
+
+```{r, warning=FALSE, echo=FALSE}
+library(rbokeh)
+p <- figure() %>%
+  ly_points(Sepal.Length, Sepal.Width, data = iris,
+    color = Species, glyph = Species,
+    hover = list(Sepal.Length, Sepal.Width))
+
+p
+```
+
+
+
+Aqui, um modelo exponencial é ajustado aos dados numa busca por melhor entender o crescimento da epidemia. O modelo exponencial foi escolhido inicialmente por ser o que melhor explica a tendência de crescimento inicial da doença e por ser o mais facilmente aplicado.
+
+```{r, warning=FALSE, echo=FALSE}
+
+z <- lm(dist ~ speed, data = cars)
+p <- figure(width = 600, height = 600) %>%
+  ly_points(cars, hover = cars) %>%
+  ly_lines(lowess(cars), legend = "lowess") %>%
+  ly_abline(z, type = 2, legend = "lm")
+p
+```

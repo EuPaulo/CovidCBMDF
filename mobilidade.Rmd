@@ -1,0 +1,7 @@
+---
+title: "COVID-19 CBMDF"
+---
+
+## Análise de mobilidade a partir de dados publicados pela ferramenta Google Mobility
+
+Essa análise buca verificar em quanto tempo as medidas de alteração de mobilidade da população refletem no número básico de reprodução da COVID-19.

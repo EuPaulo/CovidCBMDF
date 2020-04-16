@@ -1,0 +1,27 @@
+---
+title: "COVID-19 CBMDF"
+---
+<div>
+<img src="www/logo.png" alt="drawing" width="200px" style="float:left;"/>
+Repositório do trabalho da subunidade de Análise de Dados do Corpo de Bombeiros Militar do Distrito Federal.
+
+Modelagem e predição da pandemia de COVID-19 no Distrito Federal e no Brasil.
+
+Em 31 de dezembro de 2019, a China anunciou a avanço da doença batizada de COVID-19, causada por um vírus recém identificado, denominado SARS-Cov-2. O vírus rapidamente se espalhou pelos países asiáticos e europeus, em um fenômeno que chamou a atenção de todo o mundo. No Brasil, o primeiro caso com teste positivo ocorreu em 26 de fevereiro de 2020, em São Paulo.
+
+A ideia desta página é gerar análises orientadas e cientificamente embasadas para subsidiar a tomada de decisão. Aqui catalogamos as análises em concluídas e discutimos as que estão em andamento.
+</div>
+
+
+### Tempos de infecção para um modelo SEIR
+
+
+<center>
+
+![Tempos de infecção. Retirado de: ](www/tempos.png)
+
+</center>
+
+
+
+
