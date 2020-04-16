@@ -13,15 +13,6 @@ A ideia desta página é gerar análises orientadas e cientificamente embasadas 
 </div>
 
 
-### Tempos de infecção para um modelo SEIR
-
-
-<center>
-
-![Tempos de infecção. Retirado de: ](www/tempos.png)
-
-</center>
-
 
 
 

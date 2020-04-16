@@ -8,14 +8,12 @@ navbar:
       - text: "Análise comparativa"
         href: analise_comparativa.html
       - text: "Modelos Preditivos"
-        menu:
-          - text: "teste"
-            href: modelos.html
-            
+        href: modelos.html
       - text: "Mobilidade"
         href: mobilidade.html
 output:
   html_document:
     theme: cosmo
+
 
 

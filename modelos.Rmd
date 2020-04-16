@@ -1,8 +1,22 @@
 ---
 title: "COVID-19 CBMDF"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_collapsed: true
 ---
 
 ## SEIR
+### Tempos de infecção para um modelo SEIR
+
+
+<center>
+
+![Tempos de infecção. Retirado de: ](www/tempos.png)
+
+</center>
+
 
 ## SEIIIRD
 
