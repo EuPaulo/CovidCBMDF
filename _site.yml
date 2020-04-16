@@ -11,6 +11,9 @@ navbar:
         href: modelos.html
       - text: "Mobilidade"
         href: mobilidade.html
+  right:
+      - text: "Contato"
+        href: contato.html
 output:
   html_document:
     theme: cosmo
