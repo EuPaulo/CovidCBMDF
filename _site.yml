@@ -11,6 +11,8 @@ navbar:
         href: modelos.html
       - text: "Mobilidade"
         href: mobilidade.html
+      - text: "Mapa"
+        href: mapa.html
   right:
       - text: "Contato"
         href: contato.html
