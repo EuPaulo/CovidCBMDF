@@ -13,6 +13,8 @@ navbar:
         href: mobilidade.html
       - text: "Mapa"
         href: mapa.html
+      - text: "Perguntas Frequentes" 
+        href: perguntas.html
   right:
       - text: "Contato"
         href: contato.html
