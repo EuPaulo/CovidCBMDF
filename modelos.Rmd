@@ -23,7 +23,7 @@ Um dos modelos epidemiológicos mais utilizados no mundo é o SEIR (Suscetíveis
 
 Em sua forma mais básica, o modelo SEIR utiliza a seguinte equação populacional:
 
-N=S(t) + E(t) + I(t) + R(t)
+$N=S(t) + E(t) + I(t) + R(t)$
 
 Desse modo, o total de indivíduos de uma população (N) é dividido nos compartimentos (S,E,I,R). No caso do Distrito Federal, por exemplo, N = 3.015.268 segundo estimativas do IBGE de julho de 2019. Para a COVID-19, por ser uma doença nova, considera-se que toda a população se encontra no compartimento dos suscetíveis, não havendo, portanto, imunização prévia. 
 A partir do momento em que são introduzidos infecciosos, ocorrem as transições entre os compartimentos, à medida que o tempo passa. Cada uma das mudanças compartimentais se dá a determinadas taxas de variação. 
@@ -38,13 +38,14 @@ R – Representa o número de indivíduos recuperados. Esses indivíduos já nã
 
 Com a evolução da epidemia o número de indivíduos dos compartimentos varia. Como dito anteriormente, este movimento populacional ocorre a taxas de variação no tempo, as quais são calculadas por meio de equações diferenciais ordinárias (MA, 2020).
 
-dS/dt= -β.IS/N
-    
-dE/dt= β.IS/N - σE
-    
-dI/dt= σE- γI
-    
-dR/dt= γI    
+$\frac{dS}{dt}= \frac{-β.IS}{N}$
+  
+$\frac{dE}{dt}= \frac{-β.IS}{N} - \theta E$  
+
+$\frac{dI}{dt} =  \theta E -  \gamma I$ 
+
+$\frac{dR}{dt} = \gamma I$
+  
 
 Este sistema de equações diferenciais ordinárias pode ser resolvido computacionalmente por meio de métodos numéricos. Entretanto, é importante estabelecer os valores dos fatores multiplicadores (β, σ e γ) presentes em cada uma das equações supracitadas. 
 Esses fatores representam a probabilidade de transmissão por contato, que para a COVID-19, pode ser obtida por meio das observações realizadas nos países que se encontram em estágio mais avançado da epidemia, e os períodos de transição entre os compartimentos do modelo. Esses períodos se dão de acordo com os tempos de latência, incubação e infecciosidade.
@@ -53,21 +54,21 @@ Esses fatores representam a probabilidade de transmissão por contato, que para 
 
 O primeiro parâmetro relevante para a obtenção da evolução da doença na população em um dado instante do tempo é a taxa de transmissão por indivíduo infeccioso (β), a qual é fornecida pela seguinte expressão:
 
-β=R_0/t_infec     
+$\beta = \frac{R_{0}}{t_{infec}}$  
 
 Em que R0  é o chamado número reprodutivo básico, entendido como o número médio de indivíduos que um único elemento infeccioso é capaz de infectar. Este fator é uma característica da doença, sendo que, quanto mais infecciosa ela for, maior será seu número reprodutivo básico. Em outras palavras, mais pessoas poderão ser infectadas a partir de um indivíduo infeccioso. 
 R_0 pode ser obtido por meio da observação do comportamento da doença em uma população já afetada, ou por meio de uma relação entre os períodos latente e infeccioso e a taxa de crescimento de infecções (growth rate - λ).
 
-R_0=((λ+γ)∙(λ+σ))/(γ∙σ)    
+$R_{0}=((\lambda+\gamma)∙(\lambda+\theta))/(\gamma∙\theta) $ 
 
 No caso da aplicação do modelo utilizado pela Unidade de Situação da operação COVID-19 do CBMDF para análise de dados, a obtenção do número reprodutivo básico pode ser realizada das duas formas a depender da observação e da projeção pretendida.
 Já o t_infec é dado pelo tempo médio que um elemento da população se encontra infeccioso, ou seja, é capaz de transmitir a doença. Fornece o período infeccioso, que corresponde ao período durante o qual o infeccioso pode passar a doença para um suscetível. É o intervalo de tempo que o indivíduo permanece no compartimento dos infecciosos. A variável γ pode ser interpretada como a taxa de recuperação dos indivíduos, pois após o período infeccioso os elementos deslocam-se para o compartimento dos recuperados.
 
-γ=1/t_infec     
+$\gamma=\frac{1}{t_{infec}}$     
 
 O chamado período de latência e é dado pela razão de 1/σ.
 
-σ=1/t_latente     
+$\theta=\frac{1}{t_{latente}}$     
 
 Logo, o t_latente é o intervalo de tempo em que o elemento está infectado, mas não transmite a doença (não confundir com o conceito de período de incubação, que, assim como o latente, se inicia após a exposição à doença, porém se estende até o início dos sintomas). Durante esse período ele permanece no compartimento dos expostos até se tornar infeccioso. 
 Com as variáveis definidas é possível carregar o modelo em ferramentas computacionais e, por meio do cálculo numérico, realizar estimativas e projeções da disseminação da COVID-19 na população brasileira e do Distrito Federal. Por meio dessas projeções o CBMDF posiciona-se estrategicamente dar a resposta mais adequada à pandemia.
