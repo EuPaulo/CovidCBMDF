@@ -133,6 +133,7 @@ Dados utilizados
   • A mortalidade do vírus no país foi calculada a partir dos dados da ecdc. (link: https://www.ecdc.europa.eu/en/covid-19-pandemic)  
   • Tempo de incubação do vírus: 5.1 dias 
   • Tempo entre a apresentação dos sintomas e a morte: 18.8 dias
+ 
  <\center> 
   Modelos Matemáticos
   <\center>
