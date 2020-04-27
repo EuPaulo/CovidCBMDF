@@ -1,0 +1,29 @@
+---
+title: "Perguntas Frequentes"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_collapsed: true
+---
+
+## O que são modelos e como funcionam?
+Utilizamos alguns modelos para realizar previsões de como o vírus se comportaria no Brasil e no Distrito Federal, esses modelos são explicados em 
+## Já atingimos o pico de casos no Brasil?
+Apesar do grande número de casos positivos, apenas pequena parte da população foi atingida. Explicar sobre herd immunity e dar o exemplo da proporção de casos reais estimados para a Itália.
+##Quantas pessoas ainda vão morrer?
+Não é possível prever com precisão o número de mortes , isso depende das ações de intervenção e das precauções individuais.
+##O que é crescimento exponencial?
+ 
+## E a economia?
+Não sei se vale a pena colocar essa seção, porque foge um pouco ao que fizemos. Mas pensei em colocar basicamente o que você colocou no seu texto. Que talvez não seja uma análise dicotômica. 
+## Vão faltar leitos?
+O problema vai um pouco além de leitos. Além de equipamentos, depende de equipe de saúde capacitada.
+## Como resolver esse problema? 
+Explicar que ainda não há resposta objetiva para essa questão. Que é possível que tenhamos períodos de avanço e retração nas atividades. Que pode demorar um pouco para que retomemos o contato social "normal".
+## O que é achatamento da curva?
+## Isolamento horizontal ou vertical?
+
+#Termos técnicos
+##Growth Hate
+##Pandemia
