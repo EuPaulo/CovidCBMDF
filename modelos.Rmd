@@ -113,7 +113,6 @@ Parâmetros de entrada da simulação:
 -Fração de infecções causadas por um infectado grave: 0.1.
 -Fração de infecções causadas por um infectado crítico: 0.1.
 
-
 ## Modelo Bayesiano do Imperial College
 
 <\center>
