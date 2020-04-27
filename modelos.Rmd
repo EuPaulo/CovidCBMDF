@@ -142,7 +142,7 @@ Para calcular uma previsão de novos casos por dia foi usado o proposto pelo  Re
 
  $D_{t,m} ~  \sim {\sf negative Binom}(d_{t,m},  d_{t,m} + \frac{d_{t,m}^{2}}{\psi},)$
  
- $\psi~Normal(0.5)$���
+ $\psi~Normal(0.5)$
 
 Sendo que o número esperado de mortes d em um determinado local em um determinado dia é uma função do número de infecções c que ocorrem nos dias anteriores. 
 
@@ -170,4 +170,5 @@ e R_{t,m}  dado por:
 $$R_{t,m} = R_{0,m} exp( -\sum_{k=1}^{6} \alpha{k} I_{k,t,m})$$ 
 
 Onde k representa o tipo de Intervenção adotada na localidade (são consideradas 6), I_{k,t,m} representa a intervenção e α o peso dessa intervenção.
+
 
